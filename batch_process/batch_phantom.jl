@@ -4,9 +4,9 @@ using NIfTI  # 用于保存 NIfTI 格式的图像
 using CUDA
 using FileIO
 
-sequence_path = "D:/Programme/Julia/Julia/batch_process/sequence/epi_se_xy_128.seq"  # 固定序列路径
-phantom_folder = "test"  # 水模文件所在文件夹路径
-output_image_dir = "results/epise"  # 图像输出目录
+sequence_path = "seq_path"  # 固定序列路径
+phantom_folder = "phantom_path"  # 水模文件所在文件夹路径
+output_image_dir = "results_path"  # 图像输出目录
 
 # 创建输出目录
 mkpath(output_image_dir)
